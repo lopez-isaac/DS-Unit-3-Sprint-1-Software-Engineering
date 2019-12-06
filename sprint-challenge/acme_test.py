@@ -1,5 +1,6 @@
 import unittest
 from acme import Product
+from acme import BoxingGlove
 from acme_report import generate_products, ADJECTIVES, NOUNS
 
 

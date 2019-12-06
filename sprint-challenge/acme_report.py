@@ -15,7 +15,7 @@ def generate_products(num_products=30):
     combinations = list(itertools.product(NOUNS, ADJECTIVES))
 
     for item in list(range(num_products)):
-        prod = Product(name=sample(combinations,1),
+        item = Product(name=sample(combinations,1),
 
                        #price random int 5 to 100
                        price=random.randint(5, 100),
@@ -24,7 +24,7 @@ def generate_products(num_products=30):
                        #flammability random float from 0 to 2.5
                        flam=random.uniform(0, 2.5))
 
-        products.append(prod)
+        products.append(item)
     return products
 
 
