@@ -1,0 +1,27 @@
+Acme Corporation isn't just a few .py files. If you want to grow in your career
+here, you'll have to answer the following:
+
+What, in your opinion, is an important part of code reviews? That is, what is
+something you pay attention to when you review code, and that you appreciate
+when others do the same for your code?
+
+We have an awful lot of computers here, and it gets pretty confusing with
+slightly different things running on all of them. How could containers help us
+improve this situation?
+
+Answer both of these questions (baseline ~5 sentences) here in text.
+
+
+1) Variable names are important to me. It makes it easier to follow the code
+and might not need to read a comment explaining what its doing. Sometimes when
+i forget to comment my code and i go back it sometime later. I am able to
+remember what I did or was trying to do. So if somebody forgets to comment their
+code but the variables are decent and self explanatory the you can get by without 
+a comment needing to be included. Using vague symbols like x can get confusing
+if its a long piece of code and it doesn't standout.
+
+2)containers are great because they can isolate environments. Therefore you know
+that the only things running are the things you specifically installed. They are
+also great because they can run on any operating system. Therefore you do not
+have to worry about code that works on a windows pc not working as intended on
+a mac. It will behave the same and have the same bugs.
